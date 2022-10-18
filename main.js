@@ -38,7 +38,7 @@ d3.json("output.json", function(error, graph) {
 
   var circles = node.append("circle")
     .attr("r", 5)
-    .attr("fill", function(d) { return color(d.group); });
+    .attr("fill", function(d) { return color(d.group); }).style("red");
 
   // Create a drag handler and append it to the node object instead
   var drag_handler = d3.drag()
