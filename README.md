@@ -1,8 +1,8 @@
-# the-same
+# One Second Every Day
 
-A graphical representation of who knows who in the world of Occuran
+A graphical representation of who all has been in my one second every day video
 
-https://alopez6991.github.io/DND-network-graph/
+https://alopez6991.github.io/1SEDV/
 
 
 ## Updating
