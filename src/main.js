@@ -3,7 +3,7 @@ var svg = d3.select("svg")
 const width = window.innerWidth
 const height = window.innerHeight
 
-const link_length = 100
+const link_length = 150
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -37,7 +37,7 @@ d3.json("output.json", function(error, graph) {
     .enter().append("g")
 
   var circles = node.append("circle")
-    .attr("r", 5)
+    .attr("r", 10)
     .attr("fill", function(d) { return color(d.group); }).style("red");
 
   // Create a drag handler and append it to the node object instead
